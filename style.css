@@ -151,3 +151,40 @@ button:hover {
         padding: 6em;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .ID4 {
+        width: 0;
+        height: 0;
+    }
+
+    aside {
+        width: 0;
+        height: 0;
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    .form {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+        align-items: center;
+        padding: 1em;
+        border: transparent;
+    }
+
+    .logo:after,
+    .logo:before {
+        background: #fff;
+        content: "";
+        height: 2px;
+        width: 10em;
+        margin-top: 22px;
+    }
+}
